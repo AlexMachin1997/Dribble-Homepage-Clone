@@ -1,0 +1,98 @@
+// 1 - Load project variables.
+// 2 - Load bootstrap sass files.
+// 3 - Load custom app sass files.
+
+
+
+// --------------------------------------------------------
+//  Import in the default bootstrap variables.
+//  Then override bootstrap default with project specific values.
+// --------------------------------------------------------
+
+@import "../../Frameworks/Bootstrap-Framework/scss/variables"; // Bootstrap Variables
+@import "1-tools/variables";
+
+// --------------------------------------------------------
+// Import required bootstrap sass files needed for this project.
+// Uncomment any bootstrap functionality required for this project.
+// The idea is to keep this as small as possible.
+// --------------------------------------------------------*/
+
+
+/* --------------------------------------------------------
+   Core mixins
+   -------------------------------------------------------- */
+
+@import "../../Frameworks/Bootstrap-Framework/scss/mixins";
+
+
+
+/* --------------------------------------------------------
+   Reset and dependencies
+   -------------------------------------------------------- */
+//@import "../../Frameworks/Bootstrap-Framework/scss/custom";
+@import "../../Frameworks/Bootstrap-Framework/scss/normalize";
+//@import "../../Frameworks/Bootstrap-Framework/scss/print";
+
+
+
+/* --------------------------------------------------------
+   Core CSS
+   -------------------------------------------------------- */
+
+@import "../../Frameworks/Bootstrap-Framework/scss/reboot";
+//@import "../../Frameworks/Bootstrap-Framework/scss/type";
+//@import "../../Frameworks/Bootstrap-Framework/scss/images";
+//@import "../../Frameworks/Bootstrap-Framework/scss/code";
+@import "../../Frameworks/Bootstrap-Framework/scss/grid";
+//@import "../../Frameworks/Bootstrap-Framework/scss/tables";
+@import "../../Frameworks/Bootstrap-Framework/scss/forms";
+//@import "../../Frameworks/Bootstrap-Framework/scss/buttons";
+
+
+/* --------------------------------------------------------
+   Components
+   -------------------------------------------------------- */
+
+@import "../../Frameworks/Bootstrap-Framework/scss/transitions";
+//@import "../../Frameworks/Bootstrap-Framework/scss/dropdown";
+//@import "../../Frameworks/Bootstrap-Framework/scss/button-group";
+//@import "../../Frameworks/Bootstrap-Framework/scss/input-group";
+//@import "../../Frameworks/Bootstrap-Framework/scss/custom-forms";
+@import "../../Frameworks/Bootstrap-Framework/scss/nav";
+@import "../../Frameworks/Bootstrap-Framework/scss/navbar";
+//@import "../../Frameworks/Bootstrap-Framework/scss/card";
+//@import "../../Frameworks/Bootstrap-Framework/scss/breadcrumb";
+//@import "../../Frameworks/Bootstrap-Framework/scss/pagination";
+//@import "../../Frameworks/Bootstrap-Framework/scss/badge";
+//@import "../../Frameworks/Bootstrap-Framework/scss/jumbotron";
+//@import "../../Frameworks/Bootstrap-Framework/scss/alert";
+//@import "../../Frameworks/Bootstrap-Framework/scss/progress";
+//@import "../../Frameworks/Bootstrap-Framework/scss/media";
+//@import "../../Frameworks/Bootstrap-Framework/scss/list-group";
+//@import "../../Frameworks/Bootstrap-Framework/scss/responsive-embed";
+//@import "../../Frameworks/Bootstrap-Framework/scss/close";
+
+
+
+/* --------------------------------------------------------
+   Components w/ JavaScript
+   -------------------------------------------------------- */
+
+//@import "../../Frameworks/Bootstrap-Framework/scss/modal";
+//@import "../../Frameworks/Bootstrap-Framework/scss/tooltip";
+//@import "../../Frameworks/Bootstrap-Framework/scss/popover";
+//@import "../../Frameworks/Bootstrap-Framework/scss/carousel";
+
+
+
+/* --------------------------------------------------------
+   Utility Classes
+   -------------------------------------------------------- */
+@import "../../Frameworks/Bootstrap-Framework/scss/utilities";
+
+/* --------------------------------------------------------
+   Import Custom Styles Here
+   -------------------------------------------------------- */
+
+@import "MASTER-DIR"; // Custom Modules (IMPORTS) 
